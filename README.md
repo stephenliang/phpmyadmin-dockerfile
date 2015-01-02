@@ -31,7 +31,7 @@ To help maintain immutability of the container, you may extend this image to inc
 	FROM simplyintricate/phpMyAdmin
 
 	RUN mkdir /usr/share/nginx/html/config
-	ADD config.inc.php /usr/share/nginx/html/config/config.inc.php
+	ADD config.inc.php /usr/share/nginx/html/config.inc.php
 
 ## Contributing
 
