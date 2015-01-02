@@ -22,7 +22,7 @@ The installer will ask a series of questions and generate a config file for you.
 
 Once you have `config.inc.php`, you can start phpMyAdmin and run it normally by mounting the config to the container. You will also have to provide an image folder so that you can upload to your Wiki as well.
 
-	sudo docker run -v <path to config.inc.php>:/usr/share/nginx/html/config/config.inc.php:ro --link mysql:db -p 80:80 -p 443:443 -d simplyintricate/phpmyadmin
+	sudo docker run -v <path to config.inc.php>:/usr/share/nginx/html/config.inc.php:ro --link mysql:db -p 80:80 -p 443:443 -d simplyintricate/phpmyadmin
 
 Note that if you are linking a live mysql container, the hostname is the second operand. In this example, the hostname is `db`.
 
