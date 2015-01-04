@@ -2,6 +2,8 @@
 
 ![phpmyAdmin](http://www.phpmyadmin.net/home_page/images/logo.png)
 
+> [Logo Credit](http://www.phpmyadmin.net/home_page/license.php)
+
 phpMyAdmin is a free and open source tool written in PHP intended to handle the administration of MySQL with the use of a web browser. It can perform various tasks such as creating, modifying or deleting databases, tables, fields or rows; executing SQL statements; or managing users and permissions.
 
 # How to use this image
