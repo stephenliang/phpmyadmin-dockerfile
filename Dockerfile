@@ -2,7 +2,7 @@ FROM simplyintricate/nginx-php
 
 ENV BASEDIR /usr/share/nginx/html
 ENV PHPMYADMIN_MAJOR 4.3
-ENV PHPMYADMIN_MINOR 9
+ENV PHPMYADMIN_MINOR 10
 
 WORKDIR ${BASEDIR}
 
